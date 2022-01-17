@@ -6,7 +6,20 @@ public class Main {
 		
 		ShopListSingleton shopList =  ShopListSingleton.getShopListInstance();
 		
-		shopList.addProduct("Food","apple");
+		shopList.addProduct("Food");
+		shopList.addProduct("Food apple");
+		shopList.addProduct("Other");
+		shopList.addProduct("Other water");
+		shopList.addProduct("carrots");
+		
+		shopList.printFood();
+		shopList.printOther();
+
+
+		
+
+
+		
 	}
 
 }
