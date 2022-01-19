@@ -1,4 +1,4 @@
-package exercicioSingleton;
+
 
 public class Main {
 
