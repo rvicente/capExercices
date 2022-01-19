@@ -19,6 +19,8 @@ public class Main {
 		findAverage.getAllIntegers();
 		
 		findAverage.totalAverage();
+		
+		findAverage.divisionLastInteger();
 	}
 
 }
